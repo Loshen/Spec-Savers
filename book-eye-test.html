@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Spec-Savers</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-xl bg-light navbar-light fixed-top justify-content-between">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.svg" alt="Spec-Savers" style="width:100px;">
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav">
+                            <li class="navbar-item me-3">
+                                <a class="nav-link active" href="book-eye-test.html"><strong>Book an Eye Test</strong></a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="offers.html"><strong>Offers</strong></a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#"><strong>Spectacles</strong></a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#"><strong>Sunglasses</strong></a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="book-hearing-test.html"><strong>Hearing</strong></a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#"><strong>Contact Lenses</strong></a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#"><strong>Find a Store</strong></a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid mt-5 p-3 justify-content-center">
+            <div class="card border-0">
+                <img class="img-fluid w-100" src="images/Book-Online1.jpg" alt="Book Eye Test">
+                <div class="card-img-overlay row justify-content-center align-item-center text-center no-padding">
+                    <div class="col-lg-5 mb-5"></div>
+                    <div class="col-lg-5 mt-5">
+                        <ul class="nav nav-tabs justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="tab" href="#type">Type & Location</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#date">Date & Time</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#summary">Summary</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div class="tab-pane container bg-light tab-border active" id="type">
+                                <h3 class="py-3 text-primary">Book an Eye Test Online</h3>
+                                <h5>Select Appointment Type</h5>
+                                <div class="row justify-content-center">
+                                    <div class="col-6 pb-3">
+                                        <div class="form-check text-start">
+                                            <input class="form-check-input" type="radio" id="radio1" name="optradio" value="eyetest">
+                                            <label class="form-check-label">Eye Exam</label>
+                                        </div>
+                                        <div class="form-check text-start">
+                                            <input class="form-check-input" type="radio" id="radio2" name="optradio" value="kids">
+                                            <label class="form-check-label">Kids Right to Good Sight</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 id="type" class="pb-3"></h3>
+                            </div>
+                            <div class="tab-pane container tab-border bg-light" id="date">
+                                <h3 class="py-3 text-primary">Please enter a Date and Time</h3>
+                                <div class="container d-flex justify-content-center align-items-center pb-3">
+                                    <h5>Date</h5>
+                                    <select class="form-select mx-3" id="day" name="sellist1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                        <option>13</option>
+                                        <option>14</option>
+                                        <option>15</option>
+                                        <option>16</option>
+                                        <option>17</option>
+                                        <option>18</option>
+                                        <option>19</option>
+                                        <option>20</option>
+                                        <option>21</option>
+                                        <option>22</option>
+                                        <option>23</option>
+                                        <option>24</option>
+                                        <option>25</option>
+                                        <option>26</option>
+                                        <option>27</option>
+                                        <option>28</option>
+                                        <option>29</option>
+                                        <option>30</option>
+                                        <option>31</option>
+                                    </select>
+                                    <select class="form-select" id="month" name="sellist2">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                    </select>
+                                    <select class="form-select mx-3" id="year" name="sellist3">
+                                        <option>2020</option>
+                                        <option>2021</option>
+                                        <option>2022</option>
+                                        <option>2023</option>
+                                        <option>2024</option>
+                                    </select>
+                                </div>
+                                <div class="container d-flex justify-content-center align-items-center pb-3">
+                                    <h5>Time</h5>
+                                    <select class="form-select mx-3" id="hour" name="sellist4">
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                        <option>13</option>
+                                        <option>14</option>
+                                        <option>15</option>
+                                        <option>16</option>
+                                        <option>17</option>
+                                    </select>
+                                    <select class="form-select me-3" id="minute" name="sellist5">
+                                        <option>00</option>
+                                        <option>15</option>
+                                        <option>30</option>
+                                        <option>45</option>
+                                    </select>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <h2 class="px-3"><a id="pDay">1</a>/<a id="pMonth">1</a>/<a id="pYear">2023</a></h2>
+                                    <h2 class="mx-3"><a id="pHour">8</a>:<a id="pMinute">00</a></h2>
+                                </div>
+                            </div>
+                            <div class="tab-pane container tab-border bg-light" id="summary">
+                                <h3 class="text-primary py-3">Summary of Your Appointment</h3>
+                                <div class="row justify-content-center">
+                                    <div class="col-sm-6 pb-3">
+                                        <h4 class="text-start">Type: <a id="sValue"></a></h4>
+                                        <h4 class="text-start">Date: <a id="sDay">1</a>/<a id="sMonth">1</a>/<a id="sYear">2023</a></h4>
+                                        <h4 class="text-start">Time: <a id="sHour">8</a>:<a id="sMinute">00</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            document.querySelectorAll('input[name="optradio"]').forEach(function(radio) {
+                radio.addEventListener('change', function() {
+                    let testChoice = document.querySelector('input[name="optradio"]:checked').value;
+                    let type = document.querySelector('#type');
+                    let sValue = document.getElementById('sValue');
+                    if (testChoice == 'eyetest')
+                    {
+                        sValue.textContent = 'Eye Exam';
+                    }
+                    else if (testChoice == 'kids')
+                    {
+                        sValue.textContent = 'Kids Right to Good Sight';
+                    }
+                });
+            });
+
+            let ids = ['day', 'month', 'year', 'hour', 'minute'];
+
+            ids.forEach((id) => {
+                document.getElementById(id).addEventListener('change', function() {
+
+                    if (id == 'day')
+                    {
+                        document.getElementById('pDay').textContent = this.value;
+                        document.getElementById('sDay').textContent = this.value;
+                    }
+                    else if (id == 'month')
+                    {
+                        document.getElementById('pMonth').textContent = this.value;
+                        document.getElementById('sMonth').textContent = this.value;
+                    }
+                    else if (id == 'year')
+                    {
+                        document.getElementById('pYear').textContent = this.value;
+                        document.getElementById('sYear').textContent = this.value;
+                    }
+                    else if (id == 'hour')
+                    {
+                        document.getElementById('pHour').textContent = this.value;
+                        document.getElementById('sHour').textContent = this.value;
+                    }
+                    else if (id == 'minute')
+                    {
+                        document.getElementById('pMinute').textContent = this.value;
+                        document.getElementById('sMinute').textContent = this.value;
+                    }
+                });
+            });
+
+        </script>
+    </body>
+</html>
